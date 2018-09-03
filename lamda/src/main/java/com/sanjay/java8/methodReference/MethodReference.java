@@ -14,6 +14,6 @@ public class MethodReference {
 
         //method reference
         list.sort(String::compareToIgnoreCase);
-        list.forEach(x -> System.out.println(x));
+        list.forEach(x -> System.out.println(x.toUpperCase()));
     }
 }
